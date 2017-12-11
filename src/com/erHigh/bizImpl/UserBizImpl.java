@@ -106,9 +106,7 @@ public class UserBizImpl implements UserBiz{
 		System.out.println("请输入：");
 		Scanner scan=new Scanner(System.in);
 		String choice=scan.next();
-		
 		String num=choice.substring(0, 0);
-		
 		if(num.equals(0)) {
 			System.out.println("欢迎下次再来！");
 		}else if(num.equals(1)) {
